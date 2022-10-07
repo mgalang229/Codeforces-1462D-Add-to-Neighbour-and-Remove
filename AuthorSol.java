@@ -22,7 +22,7 @@ public class AuthorSol {
 			}
 			for (int i = n; i >= 1; i--) {
 				if (sum % i == 0) {
-					long needSum = sum / i; //divide sum by into i partitions
+					long needSum = sum / i; //divide sum into i partitions
 					long curSum = 0;
 					boolean possible = true;
 					for (int j = 0; j < n; j++) {
